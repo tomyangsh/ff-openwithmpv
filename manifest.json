@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "openwithmpv",
+  "description": "openwithmpv",
+  "default_locale": "en",
+  "version": "0.0.3",
+  "author": "tomyangsh",
+  "applications": {
+    "gecko": {
+      "id": "openwithmpv001@tomyangsh.pw"
+    }
+  },
+
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "contextMenus"
+  ],
+  "icons": {
+    "48": "icons/mpv.png",
+    "96": "icons/mpv.png"
+  }
+}
